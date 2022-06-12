@@ -1,4 +1,4 @@
-const db = require('../database/index');
+import { db } from '../database/index';
 
 class UserDAO {
     async createUser(email, password, firstName, lastName) {

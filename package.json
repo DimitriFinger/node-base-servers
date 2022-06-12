@@ -1,14 +1,14 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "main": "JWT-Postgres-Server",
+  "main": "index.js",
   "license": "MIT",
   "scripts": {
     "migrate": "knex migrate:latest --knexfile src/database/knexfile.js",
     "unmigrate": "knex migrate:rollback --knexfile src/database/knexfile.js",
     "seed": "knex seed:run --knexfile src/database/knexfile.js",
     "dev": "nodemon src/server.js",
-    "start": "knex migrate:latest --knexfile src/database/knexfile.js && node src/server.js"
+    "start": "knex migrate:latest --knexfile src/database/knexfile.js && nodemon src/server.js"
   },
   "dependencies": {
     "body-parser": "^1.19.2",
