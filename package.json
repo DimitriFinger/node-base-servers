@@ -16,7 +16,9 @@
     "mongoose": "^6.3.6"
   },
   "devDependencies": {
+    "jest": "^28.1.1",
     "nodemon": "^2.0.16",
-    "sucrase": "^3.21.0"
+    "sucrase": "^3.21.0",
+    "supertest": "^6.2.3"
   }
 }
