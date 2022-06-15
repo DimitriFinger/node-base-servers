@@ -1,4 +1,4 @@
-import User from "../models/User"
+import User from '../models/User'
 
 class UsersController {
     async getAll(req, res) {
@@ -108,4 +108,3 @@ class UsersController {
 }
 
 export default new UsersController();
-
